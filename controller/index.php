@@ -115,15 +115,16 @@
  
            default:
             echo "bjnj";
-                
+                print_r($_POST['u']); echo "11";
                 if(isset($_POST['handle_login']))
                 {
-                    print_r($_POST['u']);
+                    print_r($_POST['u']);echo "22";
                     $user_name = $_POST['u'];
                     $password = $_POST['p'];
                     
                     if($db->fn_login($user_name, $password))
                     {
+                        echo "33";
                         $level = $db->fn_login($user_name, $password);
                         
                         $thanhcong[] = 'login_success';
