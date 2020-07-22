@@ -114,7 +114,7 @@
                 break;
             
             case 'login':
-      
+                    echo "dsadasd";
                     $user_name = $_POST['u'];
                     $password = $_POST['p'];
                     
