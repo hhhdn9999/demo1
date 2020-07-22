@@ -32,6 +32,6 @@
         default :
         require_once  'controller/index.php';
             break;
-    }
+    } 
 
 ?>
