@@ -114,6 +114,7 @@
                 break;
  
            default:
+                print_r($_POST['']);
                 if(isset($_POST['handle_login']))
                 {
                     $user_name = $_POST['u'];
