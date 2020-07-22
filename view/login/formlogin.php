@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="#" method="post">
         <div class="login">
             <div class="login-screen">
                 <div class="app-title">
