@@ -110,11 +110,12 @@
 
             case 'logout':
                 session_destroy();
-                header("Location: /PHP/SUN/DEMO1");
+                header("Location:/");
                 break;
-            
-            case 'login':
-                    echo "dsadasd";
+ 
+           default:
+                if(isset($_POST['handle_login']))
+                {
                     $user_name = $_POST['u'];
                     $password = $_POST['p'];
                     
@@ -125,9 +126,7 @@
                         $thanhcong[] = 'login_success';
                         header("Location: ?controller=gridiron&action=list");
                     }
-   
-                break;
-           default:
+                }
                 require_once  'view/login/formlogin.php';
                 break;
     }
