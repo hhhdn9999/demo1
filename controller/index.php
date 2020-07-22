@@ -116,7 +116,6 @@
            default:
                 if(isset($_POST['handle_login']))
                 {
-                    echo "dasdsa";
                     $user_name = $_POST['u'];
                     $password = $_POST['p'];
                     
