@@ -112,8 +112,8 @@
                 session_destroy();
                 header("Location: /PHP/SUN/DEMO1");
                 break;
- 
-           default:
+            
+            case 'login':
                 if(isset($_POST['handle_login']))
                 {
                     $user_name = $_POST['u'];
@@ -127,6 +127,8 @@
                         header("Location: ?controller=gridiron&action=list");
                     }
                 }
+                break;
+           default:
                 require_once  'view/login/formlogin.php';
                 break;
     }
