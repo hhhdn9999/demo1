@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="?controller=gridiron&action=login" method="post">
+    <form action="" method="post">
         <div class="login">
             <div class="login-screen">
                 <div class="app-title">
