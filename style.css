@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form {
+    width: 1000px;
+    border: 1px solid #DDDDDD;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form h3{
+    background: #009688;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+.form form table{
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.form form table tr td {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.form form table tr td input {
+    width: 90%;
+    padding: 5px;
+}
+
+.form form table tr th input{
+    width: 20%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.danhsach {
+    text-align: center;
+    width: 1000px;
+}
