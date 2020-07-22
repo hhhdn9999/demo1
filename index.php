@@ -13,7 +13,8 @@
 </body>
 </html>
 <?php
-    require_once 'model/db_config.php';
+//     require_once 'model/db_config.php';
+    require_once 'database.php';
 
     $db = new Database;
     $db->Connect();
