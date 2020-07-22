@@ -4,10 +4,10 @@ session_start();
 
 class Database
 {
-    private $hostname = 'localhost';
-    private $username = 'root';
-    private $password = '';
-    private $dbname = 'demo1';
+    private $hostname = 'ec2-184-72-235-159.compute-1.amazonaws.com';
+    private $username = 'usbnxjhcznicvw';
+    private $password = '86e620b460e4c8d4e87248c78cdf1f71812bb171e7b7538904feace42dbde39c';
+    private $dbname = 'd5qcto3hderaah';
 
     private $conn = NULL;
     private $result = NULL;
