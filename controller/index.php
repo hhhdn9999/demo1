@@ -115,9 +115,10 @@
  
            default:
             echo "bjnj";
-                print_r($_POST['u']);
+                
                 if(isset($_POST['handle_login']))
                 {
+                    print_r($_POST['u']);
                     $user_name = $_POST['u'];
                     $password = $_POST['p'];
                     
